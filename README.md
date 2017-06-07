@@ -18,15 +18,8 @@ Calculator class has two private values. One is raw expression for calculating. 
    <li>A <- B : B implements A </li>
 -------------------------------------------------------
 
- Element <-- Opearator
-         <-- Number
+ Element <-- Opearator, Number
  
- Operator <-- Plus
-          <-- Minus
-          <-- Multiply
-          <-- Division
-          <-- ParanthR
-          <-- ParanthL
+ Operator <-- Plus, Minus, Multiply, Division, ParanthR, ParanthL
  
- Number <-- IntegerNumber
-        <-- FloatNumber
+ Number <-- IntegerNumber, FloatNumber
