@@ -2,7 +2,7 @@
 oodp final project - calculator application
 
 This is description of overall Calculator package.
-
+------------------------------------------------------
 
   A <>- B : B is component of A
 
@@ -15,9 +15,10 @@ Calculator class has two private values. One is raw expression for calculating. 
  
 
    A <-- B : B extends A    
-   A <- B : B implements A   
+   <li>A <- B : B implements A </li>
+-------------------------------------------------------
 
- Element <-- Opearator'\n'
+ Element <-- Opearator
          <-- Number
  
  Operator <-- Plus
