@@ -7,9 +7,9 @@ This is description of overall Calculator package.
   A <>- B : B is component of A
 
 
-Calculator <>- Parser            - Parser takes input and make it infix notation. infix is stored in Stack. 
-           <>- ToPostFix         - ToPostFix takes infix and change it postfix. postfix is also stored in Stack.
-           <>- Evaluator         - Evaluator makes evaluated result by calculating postfix notation.
+<p>Calculator <>- Parser            - Parser takes input and make it infix notation. infix is stored in Stack.       </p>
+<p>           <>- ToPostFix         - ToPostFix takes infix and change it postfix. postfix is also stored in Stack.  </p>
+<p>           <>- Evaluator         - Evaluator makes evaluated result by calculating postfix notation.              </p>
 
 Calculator class has two private values. One is raw expression for calculating. The other is result of calculation.
  
