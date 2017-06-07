@@ -4,7 +4,7 @@ oodp final project - calculator application
 This is description of overall Calculator package.
 
 
-  A <>- B : B is component of A  
+  A <>- B : B is component of A
 
 
 Calculator <>- Parser            - Parser takes input and make it infix notation. infix is stored in Stack. 
