@@ -17,7 +17,7 @@ Calculator class has two private values. One is raw expression for calculating. 
    A <-- B : B extends A    
    A <- B : B implements A   
 
- Element <-- Opearator\n
+ Element <-- Opearator'\n'
          <-- Number
  
  Operator <-- Plus
