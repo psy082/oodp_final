@@ -1,4 +1,6 @@
-
+/* Minus class extends Operator class and this is for storing minus operator 
+ * This completes operation method which minus two of inputs
+ */
 public class Minus extends Operator{
 
 	public Minus(String _op){
