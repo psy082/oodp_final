@@ -1,6 +1,7 @@
-/* Element Class is element class for all of components of Calculator 
- * Element Class can be extended to Number or Operator elements  
+/* Element class is element class for all of components of Calculator 
+ * Element class can be extended to Number or Operator elements  
  * This has enumerator type which determines type of element.
+ * Element class need to every component of Calculator treated uniformly as Element 
  */ 
 public class Element{	
 
