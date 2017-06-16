@@ -1,4 +1,6 @@
-
+/*
+ * Top class of calculator implementation
+ */
 public class Calculator {
 	
 	private Parser p;
