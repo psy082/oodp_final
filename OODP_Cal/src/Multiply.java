@@ -1,4 +1,6 @@
-
+/* Multiply class extends Operator class and this is for storing multiply operator 
+ * This completes operation method which multiplies two of inputs
+ */
 public class Multiply extends Operator{
 
 	public Multiply(String _op){
