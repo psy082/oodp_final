@@ -1,4 +1,6 @@
-
+/* ParanthR class extends Operator class and this is for storing right paranthesis 
+ * The purpose of this class is marking operation priority so, its operation method is null
+ */
 public class ParanthR extends Operator{
 	
 	public ParanthR(String _op) {
