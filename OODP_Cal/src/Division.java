@@ -1,5 +1,5 @@
-/* Minus class extends Operator class and this is for storing minus operator 
- * This completes operation method which minus two of inputs
+/* Division class extends Operator class and this is for storing divide operator 
+ * This completes operation method which devides two of inputs
  */
 public class Division extends Operator{
 
