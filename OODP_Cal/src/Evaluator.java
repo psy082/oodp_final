@@ -1,9 +1,11 @@
 import java.util.Stack;
-
+/* Evaluator class is for calculating postfix expression and makes result value
+ */
 public class Evaluator {
 	private Stack<Element> postfix;
 	private Number result; 
 	
+	//Evaluator constructor store postfix notation and calls evaluate method
 	Evaluator(Stack<Element> _postfix){
 		postfix = _postfix;
 		result = new Number();
@@ -11,9 +13,13 @@ public class Evaluator {
 		evaluate();
 	}
 	
+	//evaluate method calculates postfix expression
 	public void evaluate(){
+		
+		//Temperary result of operation is stored in number stack
 		Stack<Number> number = new Stack<Number>();
 		
+		//postfix expression is read from begin to end
 		for(Element e: postfix){
 			if(e.getType() == Element.Type.INT){
 				IntegerNumber temp = (IntegerNumber)e;
@@ -23,6 +29,7 @@ public class Evaluator {
 				FloatNumber temp = (FloatNumber)e;
 				number.push(temp);
 			}
+			//If operation is apeared, calculates previous two numbers by using operator
 			else{
 				Operator temp = (Operator)e;
 				Number num2 = number.pop();
@@ -31,9 +38,11 @@ public class Evaluator {
 			}
 		}
 		
+		//After the end loop calculating, final result is made in number stack  
 		result = number.peek();
 	}
 	
+	//getResult returns the result
 	public Number getResult(){
 		return result;
 	}
