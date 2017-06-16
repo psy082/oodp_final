@@ -1,4 +1,6 @@
-
+/* Plus class extends Operator class and this is for storing plus operator 
+ * This completes operation method which plus two of inputs
+ */
 public class Plus extends Operator{
 
 	public Plus(String _op) {
