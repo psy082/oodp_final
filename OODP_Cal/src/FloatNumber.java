@@ -1,4 +1,4 @@
-/* FloatNumber is for storing float number
+/* FloatNumber extends Number class and this is for storing float number
  * This has setter and getter method and its type is float
  */
 public class FloatNumber extends Number{
